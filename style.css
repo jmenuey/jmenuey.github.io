@@ -1,0 +1,215 @@
+#topsection
+{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: line;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    border-bottom:3px solid #9A2258;
+    
+}
+.gris
+{
+    color: #999999;
+}
+.rosec 
+{
+    color:#E83384;
+}
+.rosef 
+{
+    color:#9A2258;
+}
+
+.sous-titre
+{
+    font-family: 'helvetica';
+    font-size: 20px;
+}
+
+.saumon
+{
+    color:#FFBE96;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('./font/fontello.eot?81179395');
+    src: url('./font/fontello.eot?81179395#iefix') format('embedded-opentype'),
+        url('./font/fontello.woff?81179395') format('woff'),
+        url('./font/fontello.ttf?81179395') format('truetype'),
+        url('./font/fontello.svg?81179395#fontello') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {    
+    font-family: 'spinnaker';
+    src: url('./font/Spinnaker-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+@font-face {
+
+    font-family: 'helvetica';
+    src: url('./font/HELN.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+  a {
+    text-decoration: inherit;
+    color:inherit;    
+  }   
+    
+.linkedin-icon
+    {
+      font-family: "fontello";
+      font-style: normal;
+      font-size: 140%;
+      color:grey;
+    }
+
+.titre_principal h1, .titre_principal h2
+{
+margin:0 0 10px 0;
+}
+
+.menu
+{
+    font-family: helvetica;
+    font-size: 110%;
+    display: flex;
+    flex-direction: line;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    text-transform: uppercase;
+
+}
+
+.menu a
+{
+    border-top:black solid 1px;
+    padding:10px 5px 0px 5px;
+}
+
+.menu a:hover
+{
+    color: #E83384;
+    font-style: bold;
+    border-top:#E83384 solid 3px;
+    padding:8px 5px 0px 5px;
+}
+
+h1 
+{
+    font-family: spinnaker,"arial black",verdana;
+    font-size: 250%;
+    font-weight: normal;
+}
+
+h2
+{
+    color: #A9A9A9;
+    font-family: "helvetica","arial black",verdana;
+    font-size: 120%;
+    font-weight: normal;
+}
+
+body
+{
+    margin:0px;
+    background-image: url("photos/imagefond2.jpg");
+    background-attachment: fixed; /* Le fond restera fixe */
+}
+
+#presentation
+{
+    background-color: #333333;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    color: #999999;
+    opacity: 1;
+    width: 80%;
+    margin:auto;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+#jaime
+{
+    font-family: helvetica,"arial black",verdana;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+     
+}
+
+.bord
+{
+    padding: 10px;
+    box-shadow: 6px 6px 6px black;
+    text-transform: uppercase;
+}
+
+
+#dispos
+{
+    font-family: helvetica,"arial black",verdana;
+    font-size: 15px;
+    width: 20%;
+    background-color: #333333;
+    display: flex;
+    flex-direction:row;
+    color: #999999;
+    opacity: 1;
+    width: 80%;
+    margin:auto;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.theme:nth-child(1)
+{
+    flex: 3;
+}
+
+label
+{
+    display: block; /* La balise devient de type block. */
+    width: 150px;
+}
+
+input,textarea
+{
+    background-color: grey;
+    border : solid grey 1px;
+}
+
+.contact
+{
+    font-family: helvetica;
+    font-size: 20px;
+
+}
+
+#conteneur
+{
+    background-color: #333333;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    color: #999999;
+    opacity: 1;
+    width: 80%;
+    margin:auto;
+    justify-content: space-around;
+    padding: 10px;
+}
