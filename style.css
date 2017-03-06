@@ -241,6 +241,12 @@ input,textarea
   flex-wrap: wrap;
 }
 
+
+#texte
+{
+    width: 70%;
+}
+
 #texte p,#texte ul
 {
     color: grey;
