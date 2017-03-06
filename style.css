@@ -134,7 +134,7 @@ body
     flex-wrap: wrap;
     color: #999999;
     opacity: 1;
-    width: 80%;
+    width: 900px;
     margin:auto;
     justify-content: space-around;
     padding: 10px;
@@ -169,7 +169,7 @@ body
     flex-direction:row;
     color: #999999;
     opacity: 1;
-    width: 80%;
+    width: 70%;
     margin:auto;
     justify-content: space-around;
     padding: 10px;
@@ -234,13 +234,19 @@ input,textarea
   padding: 10px;
 }
 
-#coordonnées
+#coordonnees
 {
     display: flex;
   flex-direction:column;
   flex-wrap: wrap;
+  font-family: helvetica,"arial black",verdana;
+  font-size: 15px;
+  line-height: 22px;
 }
-
+#coordonnees h2
+{
+    font-size: 25px;
+}
 
 #texte
 {
@@ -268,4 +274,16 @@ input,textarea
     font-family: spinnaker;
     font-size: 20px;
     font-weight: bold;
+}
+#infog
+{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;    
+}
+
+#infog p
+{
+    font-family: helvetica;
+    font-size: 18px;
 }
