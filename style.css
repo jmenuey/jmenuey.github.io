@@ -213,3 +213,53 @@ input,textarea
     justify-content: space-around;
     padding: 10px;
 }
+.formulaire, .placeholder
+{
+    font-family: helvetica,"arial black",verdana;
+    font-size: 15px;
+}
+/* pour la page CV */
+
+#noir
+{
+  background-color: black;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  opacity: 1;
+  width: 80%;
+  text-decoration-color: #FFFFFF;
+  margin:auto;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+#coordonnées
+{
+    display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+
+#texte p,#texte ul
+{
+    color: grey;
+    font-family: helvetica;
+    font-size: 15px;
+}
+
+#texte h2
+{
+    color:#E83384;
+    font-family: helvetica;
+    font-size: 25px;
+    border-bottom: solid #9A2258 2px;
+    padding:0px 10px 10px 0px;
+}
+#texte h3
+{
+    color:#FFBE96;
+    font-family: spinnaker;
+    font-size: 20px;
+    font-weight: bold;
+}
