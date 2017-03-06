@@ -253,7 +253,7 @@ input,textarea
     width: 70%;
 }
 
-#texte p,#texte ul
+#texte p,#texte ul 
 {
     color: grey;
     font-family: helvetica;
@@ -286,4 +286,15 @@ input,textarea
 {
     font-family: helvetica;
     font-size: 18px;
+}
+#noir
+{
+    display: flex;
+  flex-direction:row;
+  justify-content: space-around; 
+}
+#droite
+{
+    color:grey;
+    font-family: helvetica;
 }
