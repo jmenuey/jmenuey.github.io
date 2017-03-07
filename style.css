@@ -134,7 +134,7 @@ body
     flex-wrap: wrap;
     color: #999999;
     opacity: 1;
-    width: 900px;
+    width: 80%;
     margin:auto;
     justify-content: space-around;
     padding: 10px;
@@ -150,6 +150,7 @@ body
     width: 50%;
      
 }
+
 
 .bord
 {
@@ -169,7 +170,7 @@ body
     flex-direction:row;
     color: #999999;
     opacity: 1;
-    width: 70%;
+    width: 80%;
     margin:auto;
     justify-content: space-around;
     padding: 10px;
@@ -220,6 +221,20 @@ input,textarea
 }
 /* pour la page CV */
 
+#present
+{
+    background-color: #333333;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    color: #999999;
+    opacity: 1;
+    width: 100%;
+    padding: 10px;
+    margin:auto;
+    justify-content: space-around;
+}
+
 #noir
 {
   background-color: black;
@@ -231,7 +246,7 @@ input,textarea
   text-decoration-color: #FFFFFF;
   margin:auto;
   justify-content: space-around;
-  padding: 10px;
+
 }
 
 #coordonnees
@@ -242,6 +257,7 @@ input,textarea
   font-family: helvetica,"arial black",verdana;
   font-size: 15px;
   line-height: 22px;
+  text-align: left;
 }
 #coordonnees h2
 {
@@ -274,7 +290,8 @@ input,textarea
 {
   display: flex;
   flex-direction:row;
-  justify-content: space-around;    
+  justify-content: space-around; 
+  padding: 10px;   
 }
 
 #infog p
@@ -287,14 +304,19 @@ input,textarea
 {
     width: 70%;
 }
+
 #droite
 {
     color:grey;
     font-family: helvetica;
-    background-color: green
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px;
 }
 
 #droite h2
 {
-    
-}
+    font-family: helvetica;
+    font-size: 20 px;
+    border-bottom: solid #FFBE96 2px;
+    padding: 0px 10px 10px 0px;
