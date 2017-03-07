@@ -224,7 +224,7 @@ input,textarea
 {
   background-color: black;
   display: flex;
-  flex-direction:column;
+  flex-direction:row;
   flex-wrap: wrap;
   opacity: 1;
   width: 80%;
@@ -246,11 +246,6 @@ input,textarea
 #coordonnees h2
 {
     font-size: 25px;
-}
-
-#texte
-{
-    width: 70%;
 }
 
 #texte p,#texte ul 
@@ -287,14 +282,19 @@ input,textarea
     font-family: helvetica;
     font-size: 18px;
 }
-#noir
+
+#gauche
 {
-    display: flex;
-  flex-direction:row;
-  justify-content: space-around; 
+    width: 70%;
 }
 #droite
 {
     color:grey;
     font-family: helvetica;
+    background-color: green
+}
+
+#droite h2
+{
+    
 }
