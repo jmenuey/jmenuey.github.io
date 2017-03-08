@@ -324,7 +324,7 @@ input,textarea
     
     }
 /* pour mobile */
-@media all and (max-width: 1024px)
+@media screen and (max-width: 1024px)
 {
 .themes
 {
@@ -338,7 +338,10 @@ input,textarea
     flex-direction:column;
     
 }
+
 #element
 {
   margin: auto;  
+}
+
 }
