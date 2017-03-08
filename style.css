@@ -321,3 +321,24 @@ input,textarea
     font-size: 20 px;
     border-bottom: solid #FFBE96 2px;
     padding: 0px 10px 10px 0px;
+    
+    }
+/* pour mobile */
+@media all and (max-width: 1024px)
+{
+.themes
+{
+        display: none;
+    }
+
+}
+#dispos
+{
+   
+    flex-direction:column;
+    
+}
+#element
+{
+  margin: auto;  
+}
