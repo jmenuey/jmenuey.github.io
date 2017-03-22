@@ -323,25 +323,33 @@ input,textarea
     padding: 0px 10px 10px 0px;
     
     }
+
+
 /* pour mobile */
-@media screen and (max-width: 1024px)
+
+@media all and (max-device-width: 480px)
 {
 .themes
 {
         display: none;
     }
 
-}
 #dispos
 {
    
     flex-direction:column;
     
 }
-
 #element
 {
   margin: auto;  
 }
-
+#jaime
+{
+    font-family: helvetica,"arial black",verdana;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+     
+}
 }
